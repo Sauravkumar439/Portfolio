@@ -9,6 +9,12 @@ import mongo from "../assets/mongo.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mysql from "../assets/mysql.png";
+import angular from "../assets/angular.png";
+import django from "../assets/django.png";
+import flutter from "../assets/flutter.png";
+import java from "../assets/java.png";
+import python from "../assets/python.png";
+import restapi from "../assets/restapi.png";
 
 const Experience = () => {
   const techs = [
@@ -66,12 +72,49 @@ const Experience = () => {
       title: "MySql",
       style: "shadow-blue-400",
     },
+    
+    {
+      id: 10,
+      src: angular,
+      title: "Angular",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 11,
+      src: django,
+      title: "Django",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 12,
+      src: flutter,
+      title: "Flutter",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 13,
+      src: java,
+      title: "Java",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 14,
+      src: python,
+      title: "Python",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 15,
+      src: restapi,
+      title: "RestApi",
+      style: "shadow-blue-400",
+    },
   ];
 
   return (
     <div
       name="experience"
-      className="  bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="  bg-gradient-to-b from-gray-800 to-black w-full "
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
