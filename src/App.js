@@ -8,7 +8,9 @@ import SocialLinks from "./components/SocialLinks";
 
 function App() {
   return (
-    <div>
+    <div onCopy={(event)=>{
+      event.preventDefault()
+    }}>
       <NavBar />
       <Home />
       <About />
